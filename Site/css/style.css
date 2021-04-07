@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* HEADER */
+.header {
+    background-color: black;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid  yellow;;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header h1 {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.destaque {
+    color: orangered;
+}
+
+.fundo {
+    background: rgba(255, 68, 0, 0.486);
+    font-weight: bold;
+}
+
+.navbar span {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+/* BANNER */
+
+.banner {
+    text-align: center;
+    background: grey;
+    background-image: url(../img/test2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 15%;
+}
+
+.banner h3 {
+    color: rgba(255, 255, 0, 0.767);
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+
+/*  SAIBA MAIS */
+
+.div-buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-left {
+    background-color: orangered;
+}
+
+.btn-right {
+    background-color: #ccc900;
+}
+
+.btn-left, .btn-right {
+    padding: 13px;
+    margin: 10px;
+    font-size: medium;
+    width: 200px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-right:hover {
+    cursor: pointer;
+    background-color: #b8a600;
+}
+
+.btn-left:hover {
+    cursor: pointer;
+    background-color: rgba(255, 68, 0, 0.733);
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color: black;
+    height: 9vh;
+}
+
+/* MISSÃO, VISÃO e VALORES */
+
+.banner-dois {
+    text-align: center;
+    background: grey;
+    background-image: url(../img/test3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 85vh;
+}
+
+.banner-dois-item {
+    float: left;
+    width: 27%;
+    margin: 3%;
+    margin-top: 15%;
+}
+
+.banner-dois img {
+    height: 100px;
+}
+.banner-dois h3 {
+    color: white;
+}
+
+.banner-dois p {
+    color: white;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: black;
+    overflow: auto;
+    color: white;
+    border-top: 3px solid  yellow;;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao-menu:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: yellow;
+    transition: 0.75s;
+    font-size: 17px;
+}

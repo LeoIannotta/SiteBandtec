@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* HEADER */
+.header {
+    background-color: black;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid  yellow;;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header h1 {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.botao-menu:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
+
+
+.destaque {
+    color: orangered;
+}
+
+.fundo {
+    background: rgba(255, 68, 0, 0.486);
+    font-weight: bold;
+}
+
+.navbar span {
+    color: yellow;
+    font-weight: bold;
+}
+
+/* BANNER */
+
+.bg-container {
+    text-align: left;
+    background: grey;
+    background-image: url(../img/test2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+}
+
+.bg-container  h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 15%;
+}
+
+.bg-container  h3 {
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+
+
+.Caixa {
+    background-color: rgba(226, 226, 226, 0.15);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 200px;
+    text-align: center;
+    height: 300px;
+}
+
+.SobreNos{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.SobreNos h1 {
+    color: orangered;
+}
+
+.SobreNos h2 {
+    color: orangered;
+}
+
+.SobreNos input {
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 31px;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+}
+
+.SobreNos input:focus {
+    width: 450px;
+    transition: 0.5s;
+}
+
+::placeholder {
+    color: rgb(104, 104, 104);
+}
+
+.SobreNos button {
+    margin-top: 40px;
+    border: 2px solid yellow;
+    background: black;
+    color: white;
+    width: 130px;
+    height: 50px;
+    outline: none;
+    border-radius: 31px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.SobreNos button:hover {
+    width: 150px;
+    border: 2px solid white;
+    background: white;
+    color: blueviolet;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    border-radius: 31px;
+    text-align: center;
+    color: rgb(104, 104, 104);
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    width: 420px;
+}
+
+
+textarea:focus {
+    width: 480px;
+    transition: 0.5s;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: black;
+    overflow: auto;
+    color: white;
+    border-top: 3px solid  yellow;;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.aqui:hover {
+    color: #12ff1e;
+    transition: 0.5s;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: yellow;
+    transition: 0.75s;
+    font-size: 17px;
+}
