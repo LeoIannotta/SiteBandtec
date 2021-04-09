@@ -174,3 +174,20 @@ a {
     transition: 0.75s;
     font-size: 17px;
 }
+
+/* ESTILO DO LOGIN */
+.pag-login {
+    background-color: #ecf0f1;
+}
+
+.box-login {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 7px 6px 7px 1px grey;;
+}
+
+.pag-login h1 {
+    margin: 0;
+}
